@@ -1,0 +1,170 @@
+.time-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #e0ecff;
+    background-image: url('./images/11_11.png'); /* Placeholder image */
+    background-size: cover;
+    text-align: center;
+}
+
+.time-content {
+    color: #333;
+}
+
+.time-content h1 {
+    font-size: 100px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.time-content p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+}
+
+
+
+
+
+.meme-scroll-section {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+    
+}
+
+.meme-scroll-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.meme-slider-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.meme-slider {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+
+.meme-box {
+    min-width: 100px;
+    margin: 0 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.meme-box img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-210px * 5));
+    }
+}
+
+/* Duplicating the slider to create the looping effect */
+.meme-slider {
+    width: calc(210px * 10); /* 5 images duplicated */
+}
+.meme-slider .meme-box {
+    margin-right: 10px;
+}
+.meme-slider-wrapper::after {
+    content: "";
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+
+
+.customer-section {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.customer-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.customer-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.customer-card {
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 3;
+}
+
+.customer-card.orange {
+    border-color: #FF6F00;
+}
+
+.customer-card.blue {
+    border-color: #1565C0;
+}
+
+.customer-card p {
+    margin: 0 0 10px;
+    font-family: "Gilroy-Medium";
+    font-weight: bold;
+    font-size: larger;
+    color: #373737;
+}
+
+.customer-card .customer-name {
+    font-weight: bold;
+    color: #ABABAB;
+}
+
+@media (max-width: 768px) {
+    .customer-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*  last section*/
+#trio {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+   
+}
+
+.image-container {
+   width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+   
+    border-radius: 10px;
+}

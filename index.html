@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Birthday - Ashish</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="from_time.css">
+    </head>
+    <body>
+
+        <!-- Header-->
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item active">You're Our Home</li>
+                    <li class="nav-item">Sweet Sour Memory</li>
+                    <li class="nav-item">You're Our Home</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Image Scroll section-->
+        <section class="scrollable-section">
+            <div class="qoutesection">
+                <div class="profile">
+                    <img src="./images/profile.png" alt="Profile Picture"
+                        class="profile-pic">
+                    <p>I am AI with two 'sh'</p>
+                </div>
+                <div id="paragraph1"
+                    class="quote paragraph-container highlighted">
+                    <h2>"I allowed some space for the <br />
+                        <span
+                            class="highlight">letters to
+                            breathe"</span><br></h2>
+                    <p> — never said by Ashi, ever.</p>
+                </div>
+                <div id="paragraph2" class="quote paragraph-container">
+                    <h2>“Aaj Portfolio Frontend khatam karta
+                        Kal Subah <br />
+                        <span
+                            class="highlight">Contest dunga 8
+                            baje”</span><br></h2>
+                    <p> — said by Ashi</p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="image-scroll" id="image-scroll">
+                    <img src="./images/stage.png" alt="Left Image"
+                        class="image-item" id="first-image"
+                        onclick="showParagraph(1)">
+                    <img src="./images/stage2.png" alt="Center Image"
+                        class="image-item" id="second-image"
+                        onclick="showParagraph(2)">
+
+                </div>
+            </div>
+        </section>
+
+        <!--  some text-->
+        <div class="star-text">
+            <p>“May be I'm a star —that’s why I feel black is a classic colour
+                for me to shine.”</p>
+        </div>
+
+        <!-- personality section-->
+        <div class="personality-container">
+            <div class="header">My different Personalities</div>
+            <div class="personality-section">
+                <div class="personality-image">
+                    <img src="./images/personality_part1.png"
+                        alt="Personality 1">
+                </div>
+                <div class="right-per">
+
+                    <div class="personality-images-2">
+                        <div class="P-image">
+                        <img src="./images/Personality_part2.png"
+                            alt="Personality 2">
+                        </div>
+                        <div class="P-image">
+                        <img src="./images/Personality_part3.png"
+                            alt="Personality 3">
+                        </div>
+
+                    </div>
+                    <div class="personality-desc">
+                        <div class="description orange-bg">
+                            <h1>I am from CET- 5% IT & 95% BT</h1><br>
+                            <p> Ashi doesn't just write code, he makes it go
+                                crazy. He's like a wizard who whispers to
+                                computers in a language only they understand i.e
+                                Bi-nary. He bugs the bug in his code. Something
+                                new every day: a new thought, new discussion,
+                                new update, some old tired sleep schedule.</p>
+                        </div>
+                        <div class="description blue-bg">
+                            <p> Ashi doesn't just write code, he makes it go
+                                crazy.
+                                He's like a wizard who whispers to computers in
+                                a
+                                language only they understand i.e Bi-nary. He
+                                bugs
+                                the bug in his code. Something new every day: a
+                                new
+                                thought, new discussion, new update, some old
+                                tired
+                                sleep schedule.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--TimeLine section-->
+        <section class="TimeLine-section">
+            <div class="timeline-container">
+                <div class="timeline-header">Timeline of the important
+                    events</div>
+                <div class="timeline">
+
+
+                    <div class="timeline-container-svg">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-nodes">
+                            <div class="block node" id="node1"></div>
+                            <div class="block node" id="node2"></div>
+                            <div class="block node" id="node3"></div>
+                            <div class="block node" id="node4"></div>
+                            <div class="block node" id="node5"></div>
+                            <div class="block node" id="node6"></div>
+                            <div class="block node" id="node7"></div>
+                            <div class="block node" id="node8"></div>
+                            <div class="block node" id="node9"></div>
+                            <div class="block node" id="node10"></div>
+                        </div>
+                    </div>
+
+
+                    <!-- 1st -->
+                    <div class="timeline-event left">
+                        <div class="block timeline-content">
+                            <img src="./images/motu/motu.png" alt="Event Image">
+                            <div>
+                                <h3>Golu kid save lives</h3>
+                                <p>Breaking news the bus with a brake fail
+                                    didn’t meet an accident because of a golu
+                                    molu kid present in the bus - Peak simba
+                                    moment. This starts the journey of lucky
+                                    charm Ashi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2st -->
+                    <div class="block timeline-event right">
+                        <div class="timeline-content">
+                           
+                            <div>
+                                <h3>Kashish: School girl now rich</h3>
+                                <p>Ashi ne isse baat karne ko chaha to bahut tha
+                                    but he never thought himself as successful
+                                    as her. So one day when he feels successful
+                                    enough, this story might reignite with her
+                                    kids.</p>
+                            </div>
+                            <img src="./images/motu/motu2.png"
+                            alt="Event Image">
+                        </div>
+                    </div>
+
+                    <!-- 3rdst -->
+                    <div class="block timeline-event left">
+                        <div class="timeline-content">
+                            <img src="./images/motu/motu3.png"
+                                alt="Event Image">
+                            <div>
+                                <h3>Who is Shreya Pujari ???</h3>
+                                <p>Fast forward >>> meet this lady wo ek aise
+                                    paheli he jiske naam se aaj tak Ashi bhagta
+                                    he far away into the neverland!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4th -->
+                    <div class="block timeline-event right">
+                        <div class="timeline-content">
+                            
+                            <div>
+                                <h3>Panchayat vs Chunky Monkey</h3>
+                                <p>Keeping it short-lived like the group itself,
+                                    so first panchayat the big 12, to the prime
+                                    4 chunky Monkey! Aur ye yahan hamara left
+                                    arm fast bowler chutke hue...</p>
+                            </div>
+                            <img src="./images/motu/motu4.png"
+                                alt="Event Image">
+                        </div>
+                    </div>
+
+                    <!-- 5th -->
+                    <div class="block timeline-event left">
+                        <div class="timeline-content">
+                            <img src="./images/motu/motu5.png"
+                                alt="Event Image">
+                            <div>
+                                <h3>WIZ turned WIZER</h3>
+                                <p>Peak moment hands-on exp with people ideas
+                                    dev design stand-up seniors juniors taking
+                                    giving help Ashi the Helper was always there
+                                    !</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6th -->
+                    <div class="block timeline-event right">
+                        <div class="timeline-content">
+                           
+                            <div>
+                                <h3>Pratiks Appreciation Part </h3>
+                                <p>Pratik - Das, Agarwal, Panda, Biswal played a
+                                    huge role in making Ashi - The Ashi ,
+                                    observation: it was his tall people
+                                    category, jinse he spoke eye to eye!</p>
+                            </div>
+                            <img src="./images/motu/motu6.png"
+                            alt="Event Image">
+                        </div>
+                    </div>
+
+                    <!-- 7th -->
+                    <div class="block timeline-event left">
+                        <div class="timeline-content">
+                            <img src="./images/motu/motu7.png"
+                                alt="Event Image">
+                            <div>
+                                <h3>Harshit + Delivery Dots </h3>
+                                <p>Peak downfall, disappointment, unhappiness,
+                                    smiling sad Ashi crying wailing wih this
+                                    delivery dost, forgetting n beeping his
+                                    part...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8th -->
+
+                    <div class="block timeline-event right">
+                        <div class="timeline-content">
+                           
+                            <div>
+                                <h3>Back-tear-waters</h3>
+                                <p>Sanju baba was not only popular among
+                                    Bollywood but also in Ashi's life, he played
+                                    a very crucial role in keeping ashi down to
+                                    earth (with is juniors)</p>
+                            </div>
+                            <img src="./images/motu/motu8.png"
+                            alt="Event Image">
+                        </div>
+                    </div>
+                    <!-- 9th -->
+                    <div class="block timeline-event left">
+                        <div class="timeline-content">
+                            <img src="./images/motu/motu9.png"
+                                alt="Event Image">
+                            <div>
+                                <h3>Dil garden-garden ho gaya</h3>
+                                <p>kyuki hamare garden me aayi thi ek sundar
+                                    phool to make a fool out of him a good exp
+                                    of all things available in the market to
+                                    explain a relationship : he had it all in 3
+                                    months huh ! !</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10th -->
+                    <div class="block timeline-event right">
+                        <div class="timeline-content">
+                           
+                            <div>
+                                <h3>Golden Era</h3>
+                                <p>Dhan dhan dhaaaaaaaaa ... then entered WE (V3
+                                    with c3) Sumit - waise it was suppose to be
+                                    for the hackathons and courses to learn n
+                                    grow in life while rest is history. </p>
+                            </div>
+                            <img src="./images/motu/motu10.png"
+                            alt="Event Image">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--  Time Section-->
+        <section class="block time-section">
+            <div class="time-content">
+                <h1>11:11</h1>
+                <p>22 - finally the 11:11 he wished for</p>
+            </div>
+        </section>
+
+        <!--Memescroll-->
+        <section class="block meme-scroll-section">
+            <div class="block meme-scroll-title">Mandatory Birthday Memes</div>
+            <div class="meme-slider">
+                <div class="meme-box"><img src="./images/Meme1.png"
+                        alt="Meme 1"></div>
+                <div class="meme-box"><img src="./images/Meme2.png"
+                        alt="Meme 2"></div>
+                <div class="meme-box"><img src="./images/Meme3.png"
+                        alt="Meme 3"></div>
+                <div class="meme-box"><img src="./images/Meme4.png"
+                        alt="Meme 4"></div>
+                <div class="meme-box"><img src="./images/Meme5.png"
+                        alt="Meme 5"></div>
+                <div class="meme-box"><img src="./images/Meme6.png"
+                        alt="Meme 6"></div>
+
+                <div class="meme-box"><img src="./images/Meme1.png"
+                        alt="Meme 1"></div>
+                <div class="meme-box"><img src="./images/Meme2.png"
+                        alt="Meme 2"></div>
+                <div class="meme-box"><img src="./images/Meme3.png"
+                        alt="Meme 3"></div>
+                <div class="meme-box"><img src="./images/Meme4.png"
+                        alt="Meme 4"></div>
+                <div class="meme-box"><img src="./images/Meme5.png"
+                        alt="Meme 5"></div>
+                <div class="meme-box"><img src="./images/Meme6.png"
+                        alt="Meme 6"></div>
+            </div>
+
+        </section>
+
+        <!-- custom cards 4 grid-->
+        <section class="customer-section">
+            <h2>Happy Customers</h2>
+            <div class="customer-cards">
+                <div class="block customer-card orange">
+                    <p>“Ashish is the most talented guy I've ever seen.”</p>
+                    <div class="customer-name">Ashi's MOM, CEO of the
+                        house</div>
+                </div>
+                <div class="block customer-card blue">
+                    <p>“Ashish is the most talented guy I've ever seen.”</p>
+                    <div class="customer-name">Ashi's MOM, CEO of the
+                        house</div>
+                </div>
+                <div class="block customer-card blue">
+                    <p>“Ashish is the most talented guy I've ever seen.”</p>
+                    <div class="customer-name">Ashi's MOM, CEO of the
+                        house</div>
+                </div>
+                <div class="block customer-card orange">
+                    <p>“Ashish is the most talented guy I've ever seen.”</p>
+                    <div class="customer-name">Ashi's MOM, CEO of the
+                        house</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3 friends Together-->
+        <section id="trio">
+            <h2>Team Summit+</h2>
+            <div class="block image-container">
+                <img src="./images/trio.png" alt="Team Summit+">
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
